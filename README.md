@@ -9,10 +9,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 What things you need to install the software.
 
-python 3.5
-tensorflow >= 1.4
-matplotlib
-scikit-learn
+python 3.5 . 
+tensorflow >= 1.4 . 
+matplotlib . 
+scikit-learn . 
 
 ### How to Use
 
