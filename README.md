@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 * scikit-learn  
 * jupyter notebook (IPython)
 
-## How to Use
+### How to Use
 * Clone the repo to somewhere. Refer this folder as `$ROOT`
 * Download the Pedestrain Dataset, and store it in a directory `$ROOT/data`. (Note: both image files and label files live in `$ROOT/data`. An image file and its corresponding label file shall have a same name).
 * Follow the ipython notebook file `cf_data_pack.ipynb` to pack and organize the dataset.
