@@ -1,18 +1,16 @@
-# ssd
-## how to use
+# Cross-Safe
 
-put image files and corresponding label files into ./data
+Cross-Safe is a project for real-time pedestrian signal detection and recognition. More specifically, it is based on a deep learning recognition algorithm, enabling robust walking signal sign detection and signal recognition. 
 
-default image shape (300, 400, 3) 
+A custom image library was built and developed to train, validate, and test our methodology on real traffic intersections, demonstrating the feasibility of Cross-Safe in providing safe guidance to the visually impaired at urban intersections. 
 
-label format:   
+## Getting Started
 
-  class
-  
-  x1, y1, x2, y2
-  
-run ./ssd_data_pack.ipynb
 
-run ./ssd_gt_encode.ipynb
+### Prerequisites
 
-run ./ssd_model.ipynb
+What things you need to install the software and how to install them
+
+```
+Give examples
+```
