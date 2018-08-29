@@ -10,14 +10,15 @@ The dataset used contains over 7,000 images collected by volunteers from New Yor
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-python 3.5  
-tensorflow >= 1.4  
-matplotlib  
-scikit-learn  
+* python 3.5  
+* tensorflow >= 1.4  
+* matplotlib  
+* scikit-learn  
+* jupyter notebook (IPython)
 
 ## How to Use
 * Clone the repo to somewhere. Refer this folder as `$ROOT`
-* Download the Pedestrain Dataset, and store it in a directory `$data`. (Note: both image files and label files live in `$data`. An image file and its corresponding label file shall have a same name).
+* Download the Pedestrain Dataset, and store it in a directory `$ROOT/data`. (Note: both image files and label files live in `$ROOT/data`. An image file and its corresponding label file shall have a same name).
 * Follow the ipython notebook file `cf_data_pack.ipynb` to pack and organize the dataset.
 * Follow the ipython notebook file `cf_gt_encode.ipynb` to encode the ground truth labels.
 * Follow the ipython notebook file `cf_mdoel.ipynb` to train, test the model. (training and testing configurations are in `config.py`).
